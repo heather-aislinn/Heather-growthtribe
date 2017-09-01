@@ -1,0 +1,41 @@
+/* Main Header */
+
+
+.jumbotron {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)),url('../img/Ludwig Merold.jpg') no-repeat center;
+  background-size: cover;
+  color: #967BB6;
+}
+
+h1, h2 {
+  font-family: 'Alegreya', serif;
+}
+
+h4 {
+  padding-top: 10px;
+  font-family: 'Alegreya', serif;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+}
+.row {
+  padding-bottom: 10px;
+}
+
+.demo_wrapper {
+  padding-bottom: 50px;
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .jumbotron > h1 {
+    font-size: 80px;
+  }
+  .jumbotron > p {
+    font-size: 50px;
+  }
+}
